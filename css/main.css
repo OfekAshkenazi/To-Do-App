@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(216, 73, 29);
+}
+
+* {
+    font-size: 25px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    background-color: bisque;
+    border: 3.5px solid lightsalmon;
+}
+
+.headArea {
+    text-align: center;
+}
+
+select {
+    background-color: rgb(93, 93, 227);
+}
+
+.todo-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: bisque;
+    box-shadow: 0px 0px 15px rgb(99, 118, 186);
+    padding: 10px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 213, 168);
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+li {
+    text-decoration: underline;
+
+}
+
+li:hover {
+    box-shadow: 0px 0px 15px rgb(240, 69, 69), 0px 0px 35px rgb(240, 69, 69),0px 0px 50px rgb(240, 69, 69);
+}
+button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    color: brown;
+}
+.input-section {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    padding: 10px;
+    justify-content: space-evenly;
+
+}
+
+.todo-stat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(247, 213, 168);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.done {
+    text-decoration: line-through;
+}
